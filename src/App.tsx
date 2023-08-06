@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { add } from '@kamrucci/utils';
 import Select from 'react-select';
-import { Button, Input } from '@kamrucci/components-ui';
+import { Button, Input } from '@kamrucci/components';
+import '../node_modules/@kamrucci/components/dist/cjs/index.css';
 
 const options = [
   { value: 'chocolate', label: 'Chocolate' },

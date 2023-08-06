@@ -1,10 +1,10 @@
 {
   "name": "my-app",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
-    "@kamrucci/components-ui": "0.1.7",
+    "@kamrucci/components": "0.2.0-alpha",
     "@kamrucci/utils": "0.1.3",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@svgr/webpack": "^5.5.0",
