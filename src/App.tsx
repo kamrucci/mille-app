@@ -3,11 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 import { add } from '@kamrucci/utils';
 import Select from 'react-select';
+import { Button, Input } from '@kamrucci/components-ui';
 
 const options = [
   { value: 'chocolate', label: 'Chocolate' },
   { value: 'strawberry', label: 'Strawberry' },
-  { value: 'vanilla', label: 'Vanilla' },
+  { value: 'vanilla', label: 'Vanillas' },
 ];
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Button text="asd" />
+        <Input />
         <Select
           defaultValue={selectedOption}
           onChange={setSelectedOption}
